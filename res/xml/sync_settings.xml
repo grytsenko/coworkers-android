@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference android:key="@string/group_title"
+        android:title="@string/group_title_label" android:defaultValue="@string/group_title_default"
+        android:dialogTitle="@string/group_title_rename" />
+
+    <ListPreference android:key="@string/sync_photos"
+        android:title="@string/sync_photos_label" android:entries="@array/sync_photos_entries"
+        android:entryValues="@array/sync_photos_values" android:defaultValue="@string/sync_photos_none" />
+
+    <CheckBoxPreference android:key="@string/native_names"
+        android:title="@string/native_names_label" android:summaryOn="@string/native_names_on"
+        android:summaryOff="@string/native_names_off" android:defaultValue="false" />
+
+    <ListPreference android:key="@string/sync_frequency"
+        android:title="@string/sync_frequency_label" android:entries="@array/sync_frequency_entries"
+        android:entryValues="@array/sync_frequency_values" android:defaultValue="@string/sync_frequency_weekly" />
+
+    <CheckBoxPreference android:key="@string/show_notifications"
+        android:title="@string/notifications_label" android:summaryOn="@string/notifications_on"
+        android:summaryOff="@string/notifications_off" android:defaultValue="@string/notifications_default" />
+
+</PreferenceScreen>

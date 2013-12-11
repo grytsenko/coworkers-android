@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Coworkers</string>
+
+    <string name="account_type">grytsenko.coworkers</string>
+
+    <!-- Sign In -->
+    <string name="username_hint">username</string>
+    <string name="username_empty">Please enter username</string>
+    <string name="password_hint">password</string>
+    <string name="password_empty">Please enter password</string>
+    <string name="password_show">Show password</string>
+
+    <string name="sign_in_action">Sign in</string>
+    <string name="sign_in_wait">Please wait&#8230;</string>
+    <string name="sign_in_failed">Check your credentials or try again later</string>
+
+    <string name="account_exists">You already have account</string>
+    <string name="account_not_created">Failed to create account</string>
+
+    <!-- Settings -->
+    <string name="settings_header">Common Settings</string>
+    <string name="settings_label">Settings</string>
+    <string name="settings_details">Photos, names, etc.</string>
+
+    <string name="group_title">group_title</string>
+    <string name="group_uid">coworkers</string>
+    <string name="group_title_label">Group</string>
+    <string name="group_title_default">Coworkers</string>
+    <string name="group_title_rename">Rename group</string>
+
+    <string name="sync_photos">sync_photos</string>
+    <string name="sync_photos_label">Photos</string>
+    <string name="sync_photos_none">none</string>
+    <string name="sync_photos_wifi_only">wifi_only</string>
+    <string name="sync_photos_wifi_or_mobile">wifi_or_mobile</string>
+
+    <string-array name="sync_photos_entries">
+        <item>Don\'t sync photos</item>
+        <item>Sync over Wi-Fi only</item>
+        <item>Sync over Wi-Fi or mobile network</item>
+    </string-array>
+
+    <string-array name="sync_photos_values">
+        <item>@string/sync_photos_none</item>
+        <item>@string/sync_photos_wifi_only</item>
+        <item>@string/sync_photos_wifi_or_mobile</item>
+    </string-array>
+
+    <string name="native_names">native_names</string>
+    <string name="native_names_label">Native names</string>
+    <string name="native_names_on">Names in their native language</string>
+    <string name="native_names_off">Names in English</string>
+
+    <string name="sync_frequency">sync_schedule</string>
+    <string name="sync_frequency_label">Frequency</string>
+    <string name="sync_frequency_weekly">weekly</string>
+    <string name="sync_frequency_monthly">monthly</string>
+
+    <string-array name="sync_frequency_entries">
+        <item>Once a week</item>
+        <item>Once a month</item>
+    </string-array>
+
+    <string-array name="sync_frequency_values">
+        <item>@string/sync_frequency_weekly</item>
+        <item>@string/sync_frequency_monthly</item>
+    </string-array>
+
+    <string name="show_notifications">show_notifications</string>
+    <string name="notifications_label">Notifications</string>
+    <string name="notifications_on">Notify me when my contacts updated</string>
+    <string name="notifications_off">Don\'t notify me</string>
+    <string name="notifications_default">true</string>
+
+    <!-- Notifications -->
+    <string name="sync_completed">Contacts have been updated.</string>
+
+</resources>
