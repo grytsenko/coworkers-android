@@ -45,7 +45,7 @@ public final class SyncScheduler {
         Date now = new Date();
         Date next = getNext(frequency);
 
-        long offset = next.getTime() - now.getTime();
+        long offset = (next.getTime() - now.getTime()) / 1000;
         ContentResolver.addPeriodicSync(account, ContactsContract.AUTHORITY,
                 new Bundle(), offset);
 
